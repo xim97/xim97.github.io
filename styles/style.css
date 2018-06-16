@@ -1,8 +1,44 @@
 * {
-    margin: 0;
+    margin: 0;    
+}
+body {
+    font-family: Arial, sans-serif;
+}
+.buttons {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    margin: 16px 30px;
+    line-height: 28px;
 }
 
-.header button {
-    border-width: 0px;
-    background-color: blue;
+.buttons a{
+    margin-left: 15px;
+    font-size: 13px; 
+    cursor: pointer;   
+}
+
+.buttons img{
+    margin-right: 7px;
+    margin-left: 22px; 
+    width: 16px;
+    height: 16px;
+    opacity: 0.75;
+    cursor: pointer;   
+}
+
+.buttons img:hover{
+    opacity: 1;
+}
+
+.header .buttons .enter-button {
+    margin-left: 15px;
+    font-weight: bold;
+    color: white;
+    border: 1px solid #4285f4;
+    border-radius: 2px;   
+    padding: 0 12px;
+    height: 30px;
+    width: 66px;
+    background-color: #4585F3;
 }
