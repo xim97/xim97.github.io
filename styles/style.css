@@ -2,6 +2,7 @@
     margin: 0;
 }
 
-body {
-    background: green;
+.header button {
+    border-width: 0px;
+    background-color: blue;
 }
