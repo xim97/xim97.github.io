@@ -191,14 +191,18 @@ footer .information {
     
 }
 
-footer .information a {
+footer .information a:link {
     color: rgba(0,0,0,.54);
     font-style: normal;
     font-weight: 400;
     font-size: 13px; 
-    text-decoration: none;  }
+    text-decoration: none;   
+}
 
-
+footer .information a:visited {
+    color: rgba(0,0,0,.54);
+    text-decoration: none;     
+}
 
 footer .information a:hover {
     text-decoration: underline;
