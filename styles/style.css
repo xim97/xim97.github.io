@@ -2,8 +2,14 @@
     margin: 0;    
 }
 body {
+    height: 100%;
     font-family: Arial, sans-serif;
 }
+
+
+.content {
+    min-height: calc(100vh - 100px);
+  }
 .buttons {
     display: flex;
     justify-content: flex-end;
@@ -145,4 +151,60 @@ body {
     border: 1px solid #c6c6c6;
     box-shadow: 0 1px 1px rgba(0,0,0,0.1);
     color: #222;
+}
+
+.search .another-languages {
+    
+    font-style: normal;
+    font-size: small;
+    line-height: 28px;
+    font-weight: 400;
+}
+.search .another-languages a {
+    text-decoration: none;
+}
+
+footer {
+    background-color: #F2F2F2;
+    color: rgba(0,0,0,.54);
+}
+
+footer .country {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    line-height: 40px;
+    margin-left: 31px;
+    border-top: 1px solid #e4e4e4; 
+}
+
+footer .information {
+    border-top: 1px solid #e4e4e4; 
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    line-height: 40px;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 13px;
+}
+
+footer .information .information-left-part {
+    margin-left: 31px;
+}
+
+footer .information .information-left-part a {
+    margin-right: 30px;
+}
+
+footer .information .information-right-part {
+    margin-right: 31px;
+}
+
+footer .information .information-right-part a {
+    margin-right: 30px;
 }
